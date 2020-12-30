@@ -9,6 +9,7 @@ while stop:
         except ValueError:
             if value == 'Y':
                 stop = False
+                break
 
     print(f'сумма чисел = {l_sum}')
 

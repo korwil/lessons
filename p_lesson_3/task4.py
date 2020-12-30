@@ -14,5 +14,5 @@ def my_func2(a, n):
     return 1 / b
 
 
-print(f'Произведение = {my_func(10, -3)}')
-print(f'Произведение = {my_func2(10, -3)}')
+print(f'Произведение = {my_func(2.1, -3)}')
+print(f'Произведение = {my_func2(3.1, -3)}')

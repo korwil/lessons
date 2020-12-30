@@ -5,7 +5,7 @@ b = float(input('Введите знаменатель: '))
 
 def division(x, y):
     if y == 0:
-        return 'бесконечность'
+        return None
     return x / y
 
 
@@ -14,7 +14,7 @@ def division2(x, y):
     try:
         return x / y
     except ZeroDivisionError:
-        return 'бесконечность'
+        return None
 
 
 print(f'a / b = {division(a, b)}')
